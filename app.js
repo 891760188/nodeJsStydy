@@ -44,7 +44,7 @@
 // });
 //
 // module.exports = app;
-var bodyParser = require('body-parser');
+var bodyParser = require('body-parser');//json
 var routes = require('./routes/index');//引入自己写的控制逻辑文件
 
 //post解析函数（可复用的必用代码）
